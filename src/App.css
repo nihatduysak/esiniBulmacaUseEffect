@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 10px;
+    justify-content: center;
+    background-color: #f3f3f3;
+    height: 500px;
+}
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numberCircle{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    background-color: #090F13;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+}
+
+.active{
+    background-color: green;
+    border: 5px solid red;
+}
